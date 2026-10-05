@@ -1,6 +1,7 @@
 {
   "name": "gymratz-plugins",
   "owner": { "name": "Gymratz" },
+  "description": "Claude Code plugins by Gymratz",
   "plugins": [
     {
       "name": "save-point",
