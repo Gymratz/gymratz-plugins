@@ -1,0 +1,11 @@
+{
+  "name": "gymratz-plugins",
+  "owner": { "name": "Gymratz" },
+  "plugins": [
+    {
+      "name": "save-point",
+      "description": "Context, cost and cache at a glance: a band above the prompt, a /hud pane with retro game themes, and Autopilot context notices",
+      "source": { "source": "git-subdir", "url": "Gymratz/save-point", "path": "save-point" }
+    }
+  ]
+}
