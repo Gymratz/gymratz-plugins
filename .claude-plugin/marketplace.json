@@ -1,12 +1,27 @@
 {
   "name": "gymratz-plugins",
-  "owner": { "name": "Gymratz" },
+  "owner": {
+    "name": "Gymratz"
+  },
   "description": "Claude Code plugins by Gymratz",
   "plugins": [
     {
       "name": "save-point",
       "description": "Context, cost and cache at a glance: a band above the prompt, a /hud pane with retro game themes, and Autopilot context notices",
-      "source": { "source": "git-subdir", "url": "https://github.com/Gymratz/save-point.git", "path": "save-point" }
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Gymratz/save-point.git",
+        "path": "save-point"
+      }
+    },
+    {
+      "name": "deskpal",
+      "description": "Sends live Claude Code session state to a deskpal desk display on your LAN. Draws nothing; opt-in per machine via ~/.deskpal.json",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Gymratz/deskpal-mod.git",
+        "path": "deskpal"
+      }
     }
   ]
 }
